@@ -1,0 +1,16 @@
+.row{
+    background-color: linen;
+    padding:20px
+}
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -moz-text-size-adjust: auto;
+    text-size-adjust:var(border-radius)
+
+}
+h1{
+    display: inline;
+    text-decoration-line: underline;
+}

@@ -1,0 +1,13 @@
+.row{
+    padding: 20px;
+}
+div{
+    background: linen;
+}
+h1{
+    display: inline;
+    text-decoration-line: underline;
+}
+h3{
+    display: inline;
+}
