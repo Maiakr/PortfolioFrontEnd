@@ -8,7 +8,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://maiakr-maiakr.koyeb.app/explab/';
+  expURL = 'http://localhost:8080/explab/';
   
   URL= environment.URL + 'explab/';
   constructor(private httpClient: HttpClient) { }

@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-expURL = 'https://maiakr-maiakr.koyeb.app/educacion/';
+expURL = 'http://localhost:8080/educacion/';
 
 URL= environment.URL +'educacion/';
 

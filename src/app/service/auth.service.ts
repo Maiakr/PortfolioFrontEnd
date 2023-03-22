@@ -10,7 +10,8 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class AuthService {
-authURL = 'https://maiakr-maiakr.koyeb.app/auth/';
+  authURL = 'http://localhost:8080/auth/';
+/*authURL = 'https://maiakr-maiakr.koyeb.app/auth/'*/
 URL = environment.URL + '/auth';
 
   constructor(private httpClient:HttpClient) { }
